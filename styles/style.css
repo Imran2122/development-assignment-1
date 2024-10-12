@@ -113,7 +113,42 @@
   align-items: center;
   justify-content: center;
   width: 1400px;
- margin: 0 auto;
- gap: 25px;
- margin-top: 48px;
+  margin: 0 auto;
+  gap: 25px;
+  margin-top: 48px;
+}
+
+.contact-container {
+  background-image: url(/assets/handshake.jpg);
+  background-repeat: no-repeat;
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.input-field {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  gap: 10px;
+}
+.input-field,.field {
+  width: 548px;
+  padding: 19px 20px;
+  border: none;
+ 
+}
+.submit{
+  padding: 19px 20px;
+}
+
+.footer-container{
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
 }
