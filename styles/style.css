@@ -56,6 +56,15 @@
   margin-top: 15px;
 }
 
+.devheader{
+  width: 390px;
+  margin-bottom: 10px;
+}
+.article{
+  width: 468px;
+  margin-bottom: 10px;
+}
+
 /* common section end */
 .banner-button {
   margin-top: 32px;
@@ -80,18 +89,6 @@
   margin-top: 30px;
 }
 
-.developer-container {
-  width: 1140px;
-  height: 1393px;
-  margin: 0 auto;
-  align-items: center;
-}
-.developer-carts {
-  display: flex;
-  gap: 80px;
-  align-items: center;
-  justify-content: center;
-}
 .video-container {
   display: flex;
   align-items: center;
@@ -134,17 +131,17 @@
   margin: 0 auto;
   gap: 10px;
 }
-.input-field,.field {
+.input-field,
+.field {
   width: 548px;
   padding: 19px 20px;
   border: none;
- 
 }
-.submit{
+.submit {
   padding: 19px 20px;
 }
 
-.footer-container{
+.footer-container {
   width: 1400px;
   display: flex;
   justify-content: space-between;
@@ -152,3 +149,26 @@
   margin: 0 auto;
   margin-top: 50px;
 }
+
+.developer-paragraph {
+  color: #0d1321;
+  text-align: center;
+  font-size: 16px;
+  width: 850px;
+  font-weight: 400;
+  line-height: 26px; 
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.developer-section{
+  width: 1440px;
+  align-items: center;
+  margin: 0 auto;
+}
+.section1{
+  display: flex;
+align-items: center;
+justify-content: center;
+  gap: 140px;
+}
+
